@@ -5,6 +5,7 @@ else
 {
 rm -f /usr/bin/proxy
 apt install lolcat -y &>/dev/null
+echo "Instalando..." | lolcat
 curl -s -L -o /usr/bin/dtmenu https://github.com/Penguinehis/DtWithMAIN/raw/main/$(uname -i)/dtmenu
 curl -s -L -o /usr/bin/proxy https://github.com/Penguinehis/DtWithMAIN/raw/main/$(uname -i)/proxy
 chmod +x /usr/bin/dtmenu /usr/bin/proxy
